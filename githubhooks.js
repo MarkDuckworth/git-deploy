@@ -5,6 +5,7 @@
  */
 var express = require('express'),
     http = require('http'),
+    fs = require('fs'),
     exec = require('child_process').exec;
     
 var app = express();
